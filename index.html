@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smoothie Order Form</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h1>Smoothie Order Form</h1>
+    <div id="form">
+        <form id="smoothieForm">
+            <label for="smoothieName">Smoothie Name:</label>
+            <input type="text" id="smoothieName" required><br>
+
+            <label for="fruit">Select Fruit:</label>
+            <select id="fruit">
+                <option value="banana">Banana</option>
+                <option value="strawberry">Strawberry</option>
+                <option value="blueberry">Blueberry</option>
+                <option value="mango">mango</option>
+        
+            </select><br>
+
+            <label for="sweetener">Select Sweetener:</label>
+            <select id="sweetener">
+                <option value="honey">Honey</option>
+                <option value="agave">Agave</option>
+                <option value="sugar">Sugar</option>
+    
+            </select><br>
+
+            <label for="milk">Select Milk:</label>
+            <select id="milk">
+                <option value="dairy">Dairy</option>
+                <option value="almond">Almond</option>
+                <option value="coconut">Coconut</option>
+            
+            </select><br>
+
+            <label for="toppings">Select Toppings:</label><br>
+            <input type="checkbox" id="whippedCream" value="whippedCream">
+            <label for="whippedCream">Whipped Cream</label><br>
+
+            <input type="checkbox" id="chocolateChips" value="chocolateChips">
+            <label for="chocolateChips">Chocolate Chips</label><br>
+            
+            <button id="order">ORDER</button>
+        </form>
+    </div>
+    <h1>YOUR ORDER</h1>
+    <div class="center">
+        <img src="Smoothies.jpg" id="smoothieImage">
+        <div id="orderDetails">
+            <p>Your order will be shown here</p>
+        </div>
+     </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
